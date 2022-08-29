@@ -1,0 +1,73 @@
+@font-face{
+    font-family: 'Android';
+    src: url("fontes/idroid.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #100118;
+}
+main {
+    background-color: white;
+    min-width: 330px;
+    max-width: 800px;
+    padding: 2em;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+h2, .versao{
+    font-family: 'Android';
+    background-image: linear-gradient(to right, #9df69d, white);
+    color: #061b06;
+    margin: 1em;
+}
+p {
+    font-family: serif;
+    margin: 1em;
+}
+hr {
+    height: 0.3em;
+    background-color: green;
+}
+nav {
+    background-color:#073d1d;
+    min-height: 250;
+    min-width: 330px;
+    text-align: center;
+}
+img {
+    min-width: 330px;
+    max-width: 800px;
+}
+.menu-texto{
+    color: white;
+    text-shadow: 2px 2px 3px #000000b9;
+}
+#video {
+    background-color: #061b06;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 60%;
+    position: relative;
+}
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+#final {
+    color: #061b06;
+    font-family: 'Android';
+    font-size: 1.5em;
+}
